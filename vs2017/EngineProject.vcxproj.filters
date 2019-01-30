@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{9391786c-eb92-4298-b0f8-602ee3b1c94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{24199fed-804c-44d5-9f31-f6d701f0b2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{6461437a-497f-43af-bf0d-8ac60a60c8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{bdb3eea8-fb46-4a78-909a-045a076bb36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{fe52e489-e955-4895-8db3-91842974bab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{5adb3cbe-7d11-4e2b-ac55-eef7b1431185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Inputs">
+      <UniqueIdentifier>{22b9c09c-2a11-4b23-ab0e-598f81381eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Inputs">
+      <UniqueIdentifier>{1b4477ab-4ba6-487c-8779-f019348e1fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rapidXML">
+      <UniqueIdentifier>{e5e2338f-e0e5-4237-9078-399473456b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maps">
+      <UniqueIdentifier>{f153bd7f-db9f-4c9c-a877-bb97894bde39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maps">
+      <UniqueIdentifier>{97a9f826-c865-4d51-9427-15830dd1178b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Collision">
+      <UniqueIdentifier>{9b5faf32-0dd3-451f-9ff5-e9ed4d92cc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\General">
+      <UniqueIdentifier>{eeb81371-8bea-40af-8f88-fd10a13ab2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\General">
+      <UniqueIdentifier>{52bc1073-42a7-4af4-a749-42db37420904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Collision">
+      <UniqueIdentifier>{d01236b6-f2dd-45f1-9903-3bcab9e055d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event">
+      <UniqueIdentifier>{60b7c529-56fd-4b6e-a4ad-281799c55850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event">
+      <UniqueIdentifier>{7a68d759-6653-4076-afdc-e184a665eda1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IGameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Render.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Transform.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainMenu.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GamesStateManager.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RenderManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MoveInput.h">
+      <Filter>Header Files\Components\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResourceManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidxml.hpp">
+      <Filter>Header Files\rapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidxml_iterators.hpp">
+      <Filter>Header Files\rapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidxml_print.hpp">
+      <Filter>Header Files\rapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapidxml_utils.hpp">
+      <Filter>Header Files\rapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AbstractRender.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LayerComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NLTmxMap.h">
+      <Filter>Header Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MapLoader.h">
+      <Filter>Header Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PhysicsManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MusicManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomManager.h">
+      <Filter>Header Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animation.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RigidBody.h">
+      <Filter>Header Files\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Collision.h">
+      <Filter>Header Files\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IComponent.h">
+      <Filter>Header Files\Components\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObject.h">
+      <Filter>Header Files\Components\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera.h">
+      <Filter>Header Files\Components\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TriggerCollision.h">
+      <Filter>Header Files\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InteractiveCollision.h">
+      <Filter>Header Files\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomTriggerCollision.h">
+      <Filter>Header Files\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ComponentCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\OverworldState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PauseState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BattleState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IMainStates.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainStateEnum.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IObserver.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IEvent.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EventBus.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EventTypes.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AiComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InteractionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\EngineProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Render.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Transform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameObjectFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainMenu.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GamesStateManager.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InputManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MoveInput.cpp">
+      <Filter>Source Files\Components\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LayerComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MapLoader.cpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NLTmxMap.cpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PhysicsManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MusicManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomManager.cpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Animation.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameObject.cpp">
+      <Filter>Source Files\Components\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>Source Files\Components\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RigidBody.cpp">
+      <Filter>Source Files\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Collision.cpp">
+      <Filter>Source Files\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TriggerCollision.cpp">
+      <Filter>Source Files\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InteractionManager.cpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomTriggerCollision.cpp">
+      <Filter>Source Files\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InteractiveCollision.cpp">
+      <Filter>Source Files\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ComponentCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OverworldState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PauseState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BattleState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EventBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AiComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

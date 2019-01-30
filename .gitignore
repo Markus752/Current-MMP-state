@@ -1,0 +1,14 @@
+*
+!*/
+!.gitignore
+!*.sln
+!*.vcxproj
+!*.cpp
+!*.h
+!assets/*
+!bin/*
+!doc/*
+!src/*
+!vs2017/*
+!assets/tiles/*
+!assets/music/*
